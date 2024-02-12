@@ -15,8 +15,38 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Como usar?
 
-## É necessário ter o Python <a href="https://www.python.org/downloads/">instalado</a> na sua máquina
+- É necessário ter o Python <a href="https://www.python.org/downloads/">instalado</a> na sua máquina
 
+Para garantir que cada pessoa tenha suas próprias credenciais exclusivas e possa configurar e usar o código de forma segura e independente você precisará seguir esses passos para configurar as credenciais OAuth 2.0 da Google Sheets API:
+
+Entrar no Google Cloud Console:
+
+- Acesse o <a href="https://console.developers.google.com/project">Google Cloud Console</a>.
+
+Ativar as APIs do Google Drive e Google Sheets:
+
+- No Google Cloud Console, navegue até o menu de navegação lateral e selecione "APIs & Serviços" > "Biblioteca".
+- Procure e ative as APIs do Google Drive e Google Sheets.
+
+Criar um Projeto:
+
+- No Google Cloud Console, clique no seletor de projetos no topo e selecione "Novo Projeto".
+- Siga as instruções para criar um novo projeto.
+
+Criar uma Credencial do Tipo OAuth 2.0:
+
+- No Google Cloud Console, vá para "APIs & Serviços" > "Credenciais".
+- Clique em "Criar credenciais" e selecione "ID do Cliente OAuth".
+- Escolha o tipo de aplicativo.
+- Configure as informações do aplicativo, como nome.
+- Após a criação da credencial, faça o download do arquivo JSON contendo suas credenciais OAuth 2.0.
+
+Fazer o Download do JSON Gerado:
+
+- Após a criação da credencial, faça o download do arquivo JSON que contém suas credenciais.
+- Guarde esse arquivo no mesmo diretório em que o codigo em Python está localizado. Este arquivo será usado para autenticar sua aplicação ao acessar a API do Google Sheets.
+
+<br/>
 1. Instale as Dependências:
 
 - Antes de executar o script, você precisa garantir que todas as dependências estejam instaladas. Você pode fazer isso usando o pip. Abra o terminal ou prompt de comando e navegue até o diretório onde seu script está localizado. Em seguida, execute o seguinte comando:
