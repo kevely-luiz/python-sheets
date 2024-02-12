@@ -85,10 +85,11 @@ Se a média das notas for inferior a 5, o aluno é considerado "Reprovado por No
 Se a média das notas estiver entre 5 e 7, o aluno precisa fazer um "Exame Final". Neste caso, a aplicação calcula a nota necessária para passar no exame final.
 Se a média das notas for 7 ou superior, o aluno é considerado "Aprovado".
 Se o número de faltas ultrapassar 25% do total de aulas, independentemente das notas, o aluno é considerado "Reprovado por Falta".
-Atualização da Planilha com os Resultados Calculados:
+
+4. Atualização da Planilha com os Resultados Calculados:
 
 Após calcular as situações dos alunos, a aplicação atualiza a planilha do Google Sheets com os resultados calculados, incluindo a situação de cada aluno e, se aplicável, a nota necessária para passar no exame final.
 
-4. Logs de Atividades:
+5. Logs de Atividades:
 
 Durante o processo, a aplicação exibe mensagens de log para fornecer feedback sobre as etapas sendo executadas, como a leitura da planilha, o cálculo das situações dos alunos e a atualização da planilha com os resultados.
